@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MeaT - Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-logo">
+    <div class="chicken-icon">
+      <img src="https://www.shutterstock.com/image-vector/vector-logo-meat-sliced-piece-260nw-1017217018.jpg" alt="logo" />
+    </div>
+    <span>MeaT</span>
+  </div>
+  <div class="navbar-address">
+    <span>📍</span>
+    <div>
+      <div class="addr-title">Address</div>
+      <div class="addr-sub">Tiruninravur,periyar nagar busstop 602024</div>
+    </div>
+  </div>
+  <input type="checkbox" class="nav-toggle" id="navToggle" />
+  <label for="navToggle" class="hamburger-label">&#9776;</label>
+  <ul class="navbar-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="product.html">Product</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="shop.html" class="active">Shop</a></li>
+    <li><a href="contact.html">Contact us</a></li>
+  </ul>
+  <div class="navbar-icons">
+    <a href="cart.html">🛒</a>
+    <a href="#">👤</a>
+  </div>
+</nav>
+
+<!-- MEAT -->
+<div class="category-section category-section-first">
+  <div class="cat-label">Meat</div>
+  <div class="cat-row">
+    <div class="cat-arrow">&#8249;</div>
+    <div class="cat-items">
+      <a class="cat-item" href="#cat-chicken-preview">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/067/013/149/small/chicken-leg-in-rustic-wooden-tabletop-setting-free-photo.jpg" alt="Chicken" />
+        <span>Chicken</span>
+      </a>
+      <a class="cat-item" href="#cat-goat-preview">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLh1qRXhTy3BKsVMts5Dpq0VRL5IIBse2hUBnGcMBhe0Q6QweuW2w9l20&s=10" alt="Goat" />
+        <span>Goat</span>
+      </a>
+      <a class="cat-item" href="#cat-beef-preview">
+        <img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=300&q=80&fit=crop" alt="Beef" />
+        <span>Beef</span>
+      </a>
+      <a class="cat-item" href="#cat-pork-preview">
+        <img src="https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?w=300&q=80&fit=crop" alt="Pork" />
+        <span>Pork</span>
+      </a>
+      <a class="cat-item" href="#cat-duck-preview">
+        <img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=300&q=80&fit=crop" alt="Duck" />
+        <span>Duck</span>
+      </a>
+    </div>
+    <div class="cat-arrow">&#8250;</div>
+  </div>
+</div>
+
+<!-- SEAFOOD -->
+<div class="category-section category-section-first">
+  <div class="cat-label">Seafood</div>
+  <div class="cat-row">
+    <div class="cat-arrow">&#8249;</div>
+    <div class="cat-items">
+      <a class="cat-item" href="#cat-fish-preview">
+        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=300&q=80&fit=crop" alt="Fish" />
+        <span>Fish</span>
+      </a>
+      <a class="cat-item" href="#cat-prawns-preview">
+        <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=300&q=80&fit=crop" alt="Prawns" />
+        <span>Prawns</span>
+      </a>
+      <a class="cat-item" href="#cat-crabs-preview">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykSY9cVFvDi_HhDr0b9T2UgiCY0afI15hpopYhR32A61N5YNLcguLYPw&s=10" alt="Crabs" />
+        <span>Crabs</span>
+      </a>
+      <a class="cat-item" href="#cat-oysters-preview">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDmCwH84lmuwtN4mfZ3abTCmjst28BuEfzsYfk_AYhYu7abGUiHKRQJmT&s=10" alt="Oysters" />
+        <span>Oysters</span>
+      </a>
+      <a class="cat-item" href="#cat-mussels-preview">
+        <img src="https://images.unsplash.com/photo-1534482421-64566f976cfa?w=300&q=80&fit=crop" alt="Mussels" />
+        <span>Mussels</span>
+      </a>
+    </div>
+    <div class="cat-arrow">&#8250;</div>
+  </div>
+</div>
+
+<!-- PRODUCT CARDS -->
+<section class="products-section">
+
+  <div class="cat-preview-wrap">
+    <div id="cat-chicken-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/067/013/149/small/chicken-leg-in-rustic-wooden-tabletop-setting-free-photo.jpg" alt="Chicken" />
+      <span class="preview-label">Chicken</span>
+    </div>
+    <div id="cat-goat-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLh1qRXhTy3BKsVMts5Dpq0VRL5IIBse2hUBnGcMBhe0Q6QweuW2w9l20&s=10" alt="Goat" />
+      <span class="preview-label">Goat</span>
+    </div>
+    <div id="cat-beef-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=700&q=80" alt="Beef" />
+      <span class="preview-label">Beef</span>
+    </div>
+    <div id="cat-pork-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?w=700&q=80" alt="Pork" />
+      <span class="preview-label">Pork</span>
+    </div>
+    <div id="cat-duck-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=700&q=80" alt="Duck" />
+      <span class="preview-label">Duck</span>
+    </div>
+    <div id="cat-fish-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=700&q=80" alt="Fish" />
+      <span class="preview-label">Fish</span>
+    </div>
+    <div id="cat-prawns-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=700&q=80" alt="Prawns" />
+      <span class="preview-label">Prawns</span>
+    </div>
+    <div id="cat-crabs-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykSY9cVFvDi_HhDr0b9T2UgiCY0afI15hpopYhR32A61N5YNLcguLYPw&s=10" alt="Crabs" />
+      <span class="preview-label">Crabs</span>
+    </div>
+    <div id="cat-oysters-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDmCwH84lmuwtN4mfZ3abTCmjst28BuEfzsYfk_AYhYu7abGUiHKRQJmT&s=10" alt="Oysters" />
+      <span class="preview-label">Oysters</span>
+    </div>
+    <div id="cat-mussels-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1534482421-64566f976cfa?w=700&q=80" alt="Mussels" />
+      <span class="preview-label">Mussels</span>
+    </div>
+    <div id="cat-mutton-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLh1qRXhTy3BKsVMts5Dpq0VRL5IIBse2hUBnGcMBhe0Q6QweuW2w9l20&s=10" alt="Mutton" />
+      <span class="preview-label">Mutton</span>
+    </div>
+    <div id="cat-turkey-preview" class="preview-item">
+      <a href="shop.html#" class="preview-close" aria-label="Close">&times;</a>
+      <img src="https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=700&q=80" alt="Turkey" />
+      <span class="preview-label">Turkey</span>
+    </div>
+  </div>
+
+  <div class="products-grid">
+
+    <div class="product-card">
+      <img src="https://img.magnific.com/free-psd/crispy-fried-chicken-drumsticks-plate_191095-85595.jpg" alt="Breast Chicken" />
+      <h4>Breast Chicken</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to Card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q1" class="qr q1" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q2" class="qr q2" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q3" class="qr q3" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q4" class="qr q4" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q5" class="qr q5" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q6" class="qr q6" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q7" class="qr q7" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q8" class="qr q8" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q9" class="qr q9" />
+<input type="radio" name="qty-shop-breast-chicken" id="shop-breast-chicken-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-breast-chicken-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-breast-chicken-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-breast-chicken-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-breast-chicken-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-breast-chicken-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-breast-chicken-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-breast-chicken-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-breast-chicken-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-breast-chicken-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-breast-chicken-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-breast-chicken-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-breast-chicken-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-breast-chicken-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-breast-chicken-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-breast-chicken-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-breast-chicken-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-breast-chicken-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-breast-chicken-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-breast-chicken-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-breast-chicken-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=300&q=80&fit=crop" alt="Drumstick" />
+      <h4>drumstick</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q1" class="qr q1" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q2" class="qr q2" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q3" class="qr q3" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q4" class="qr q4" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q5" class="qr q5" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q6" class="qr q6" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q7" class="qr q7" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q8" class="qr q8" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q9" class="qr q9" />
+<input type="radio" name="qty-shop-drumstick" id="shop-drumstick-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-drumstick-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-drumstick-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-drumstick-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-drumstick-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-drumstick-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-drumstick-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-drumstick-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-drumstick-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-drumstick-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-drumstick-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-drumstick-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-drumstick-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-drumstick-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-drumstick-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-drumstick-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-drumstick-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-drumstick-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-drumstick-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-drumstick-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-drumstick-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=300&q=80&fit=crop" alt="Wings" />
+      <h4>Wings</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-wings" id="shop-wings-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q1" class="qr q1" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q2" class="qr q2" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q3" class="qr q3" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q4" class="qr q4" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q5" class="qr q5" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q6" class="qr q6" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q7" class="qr q7" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q8" class="qr q8" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q9" class="qr q9" />
+<input type="radio" name="qty-shop-wings" id="shop-wings-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-wings-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-wings-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-wings-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-wings-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-wings-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-wings-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-wings-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-wings-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-wings-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-wings-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-wings-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-wings-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-wings-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-wings-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-wings-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-wings-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-wings-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-wings-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-wings-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-wings-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?w=300&q=80&fit=crop" alt="Liver" />
+      <h4>Liver</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-liver" id="shop-liver-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q1" class="qr q1" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q2" class="qr q2" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q3" class="qr q3" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q4" class="qr q4" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q5" class="qr q5" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q6" class="qr q6" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q7" class="qr q7" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q8" class="qr q8" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q9" class="qr q9" />
+<input type="radio" name="qty-shop-liver" id="shop-liver-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-liver-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-liver-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-liver-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-liver-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-liver-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-liver-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-liver-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-liver-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-liver-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-liver-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-liver-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-liver-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-liver-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-liver-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-liver-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-liver-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-liver-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-liver-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-liver-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-liver-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=300&q=80&fit=crop" alt="Heart" />
+      <h4>Heart</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-heart" id="shop-heart-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q1" class="qr q1" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q2" class="qr q2" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q3" class="qr q3" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q4" class="qr q4" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q5" class="qr q5" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q6" class="qr q6" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q7" class="qr q7" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q8" class="qr q8" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q9" class="qr q9" />
+<input type="radio" name="qty-shop-heart" id="shop-heart-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-heart-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-heart-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-heart-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-heart-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-heart-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-heart-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-heart-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-heart-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-heart-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-heart-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-heart-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-heart-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-heart-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-heart-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-heart-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-heart-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-heart-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-heart-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-heart-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-heart-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.epicurious.com/photos/5b843bce1abfc56568396369/1:1/w_2560%2Cc_limit/Grilled-Chicken-with-Mustard-Sauce-and-Tomato-Salad-recipe-2-22082018.jpg" alt="Grilled" />
+      <h4>Grilled</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q1" class="qr q1" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q2" class="qr q2" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q3" class="qr q3" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q4" class="qr q4" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q5" class="qr q5" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q6" class="qr q6" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q7" class="qr q7" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q8" class="qr q8" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q9" class="qr q9" />
+<input type="radio" name="qty-shop-grilled" id="shop-grilled-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-grilled-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-grilled-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-grilled-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-grilled-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-grilled-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-grilled-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-grilled-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-grilled-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-grilled-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-grilled-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-grilled-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-grilled-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-grilled-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-grilled-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-grilled-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-grilled-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-grilled-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-grilled-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-grilled-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-grilled-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1562967915-92ae0c320a01?w=300&q=80&fit=crop" alt="Lollipop" />
+      <h4>Lollipop</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q1" class="qr q1" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q2" class="qr q2" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q3" class="qr q3" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q4" class="qr q4" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q5" class="qr q5" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q6" class="qr q6" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q7" class="qr q7" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q8" class="qr q8" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q9" class="qr q9" />
+<input type="radio" name="qty-shop-lollipop" id="shop-lollipop-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-lollipop-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-lollipop-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-lollipop-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-lollipop-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-lollipop-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-lollipop-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-lollipop-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-lollipop-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-lollipop-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-lollipop-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-lollipop-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-lollipop-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-lollipop-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-lollipop-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-lollipop-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-lollipop-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-lollipop-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-lollipop-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-lollipop-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-lollipop-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80&fit=crop" alt="Chicken" />
+      <h4>Chicken</h4>
+      <p>Apple New Pass Developer Statement hello people yellow person process of hello developer</p>
+      <a href="cart.html" class="btn-add-card">Add to card</a>
+      <div class="qty-stepper">
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q0" class="qr q0" checked />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q1" class="qr q1" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q2" class="qr q2" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q3" class="qr q3" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q4" class="qr q4" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q5" class="qr q5" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q6" class="qr q6" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q7" class="qr q7" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q8" class="qr q8" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q9" class="qr q9" />
+<input type="radio" name="qty-shop-chicken" id="shop-chicken-q10" class="qr q10" />
+  <div class="qty-row">
+    <label for="shop-chicken-q0" class="qty-circle qm qm-1">&#8722;</label>
+    <label for="shop-chicken-q1" class="qty-circle qm qm-2">&#8722;</label>
+    <label for="shop-chicken-q2" class="qty-circle qm qm-3">&#8722;</label>
+    <label for="shop-chicken-q3" class="qty-circle qm qm-4">&#8722;</label>
+    <label for="shop-chicken-q4" class="qty-circle qm qm-5">&#8722;</label>
+    <label for="shop-chicken-q5" class="qty-circle qm qm-6">&#8722;</label>
+    <label for="shop-chicken-q6" class="qty-circle qm qm-7">&#8722;</label>
+    <label for="shop-chicken-q7" class="qty-circle qm qm-8">&#8722;</label>
+    <label for="shop-chicken-q8" class="qty-circle qm qm-9">&#8722;</label>
+    <label for="shop-chicken-q9" class="qty-circle qm qm-10">&#8722;</label>
+    <span class="qty-circle qm-disable">&#8722;</span>
+    <span class="qty-num qn n0">0</span>
+    <span class="qty-num qn n1">1</span>
+    <span class="qty-num qn n2">2</span>
+    <span class="qty-num qn n3">3</span>
+    <span class="qty-num qn n4">4</span>
+    <span class="qty-num qn n5">5</span>
+    <span class="qty-num qn n6">6</span>
+    <span class="qty-num qn n7">7</span>
+    <span class="qty-num qn n8">8</span>
+    <span class="qty-num qn n9">9</span>
+    <span class="qty-num qn n10">10</span>
+    <label for="shop-chicken-q1" class="qty-circle qp qp-0">&#43;</label>
+    <label for="shop-chicken-q2" class="qty-circle qp qp-1">&#43;</label>
+    <label for="shop-chicken-q3" class="qty-circle qp qp-2">&#43;</label>
+    <label for="shop-chicken-q4" class="qty-circle qp qp-3">&#43;</label>
+    <label for="shop-chicken-q5" class="qty-circle qp qp-4">&#43;</label>
+    <label for="shop-chicken-q6" class="qty-circle qp qp-5">&#43;</label>
+    <label for="shop-chicken-q7" class="qty-circle qp qp-6">&#43;</label>
+    <label for="shop-chicken-q8" class="qty-circle qp qp-7">&#43;</label>
+    <label for="shop-chicken-q9" class="qty-circle qp qp-8">&#43;</label>
+    <label for="shop-chicken-q10" class="qty-circle qp qp-9">&#43;</label>
+    <span class="qty-circle qp-disable">&#43;</span>
+  </div>
+</div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="brand-icon">🐔</div>
+    <h2>MeaT</h2>
+  </div>
+  <div class="footer-col">
+    <h4>Quick Links</h4>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Product</h4>
+    <ul>
+      <li><a href="#cat-chicken-preview">Chicken</a></li>
+      <li><a href="#cat-mutton-preview">Mutton</a></li>
+      <li><a href="#cat-beef-preview">Beef</a></li>
+      <li><a href="#cat-fish-preview">Seafood</a></li>
+      <li><a href="#cat-duck-preview">Duck</a></li>
+      <li><a href="#cat-turkey-preview">Turkey</a></li>
+    </ul>
+  </div>
+  <div class="footer-info">
+    <h4>Information</h4>
+    <div class="info-item"><span>📞</span> +91 8667206248</div>
+    <div class="info-item"><span>✉️</span> veluv4826@gmail.com</div>
+    <div class="info-item"><span>📍</span> tiruninravur,tiruvallur</div>
+    <div class="follow-title">Follow us</div>
+    <div class="social-row">
+      <a href="#" class="soc-icon">&#128247;</a>
+      <a href="#" class="soc-icon">&#128077;</a>
+      <a href="#" class="soc-icon">&#10006;</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
